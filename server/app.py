@@ -23,3 +23,16 @@ cloudinary.config(
     api_key="716219668214133",
     api_secret="12Wn1cP9Wc_cZb6gFWMe2tdvHWQ"
 )
+
+class Home(Resource):
+    def get(self):
+        return make_response({"msg":"just started"},200)
+api.add_resource(Home,'/')
+
+
+
+
+
+
+if __name__=="__main__":
+    app.run(debug=True)
