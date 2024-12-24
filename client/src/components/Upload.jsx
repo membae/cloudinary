@@ -2,7 +2,14 @@ import React from 'react'
 
 function Upload() {
   return (
-    <div>Upload</div>
+    <div>
+        <div>
+            <h1>A button to upload images</h1>
+        </div>
+        <div>
+            <input type="file" />
+        </div>
+    </div>
   )
 }
 
